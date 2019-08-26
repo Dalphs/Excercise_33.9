@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane fx:controller="sample.ServerController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/10.0.2" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Client" />
+      <TextArea fx:id="serverClientTextArea" layoutX="14.0" layoutY="38.0" prefHeight="112.0" prefWidth="255.0" />
+      <Label layoutX="14.0" layoutY="150.0" text="Server" />
+      <TextArea fx:id="serverServerTextArea" layoutX="14.0" layoutY="174.0" prefHeight="112.0" prefWidth="255.0" />
+   </children>
+</Pane>
